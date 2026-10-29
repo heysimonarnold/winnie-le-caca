@@ -1,5 +1,5 @@
 import "./style.css";
-import memesArr from "../public/memes.json";
+import memesArr from "./memes.json";
 
 const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
 
