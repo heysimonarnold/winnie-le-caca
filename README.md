@@ -1,9 +1,11 @@
 # Winnie le caca
+
 Winnie le caca, tsé genre le meme
 
-Url: [https://winnie.smnarnold.com](https://winnie.smnarnold.com)
+Url: [https://heysimonarnold.github.io/winnie/](https://heysimonarnold.github.io/winnie/)
 
 ## Ajouter un mémé
+
 - Ouvrir le fichier `memes.json` et ajoutez une entrée à la fin.
 - `slug`: l'url de partage du mémé.
 - `no1` et `no2`: les cases du mémé _(ou à une envie de pisse ou de chier, selon votre mood)_.

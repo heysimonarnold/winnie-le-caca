@@ -173,7 +173,11 @@ class Winnie {
 
     if (data.img) {
       element.textContent = "";
-      element.style.backgroundImage = `url('${basePath}/img/memes/${data.img}')`;
+      const imageUrl = new URL(
+        `${basePath}/img/memes/${data.img}`,
+        `${window.location.origin}/`,
+      );
+      element.style.backgroundImage = `url("${imageUrl.href}")`;
     } else {
       element.textContent = data?.text ?? "";
       element.style.backgroundImage = "none";
