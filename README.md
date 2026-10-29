@@ -2,7 +2,7 @@
 
 Winnie le caca, tsé genre le meme
 
-Url: [https://heysimonarnold.github.io/winnie/](https://heysimonarnold.github.io/winnie/)
+Url: [https://heysimonarnold.github.io/winnie-le-caca/](https://heysimonarnold.github.io/winnie-le-caca/)
 
 ## Ajouter un mémé
 
