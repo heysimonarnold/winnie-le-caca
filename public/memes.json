@@ -15,7 +15,8 @@
       "text": "Où va-t-elle?"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/husquava.png"
+      "text": "husquava",
+      "img": "husquava.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/ng83sz/ta_m%C3%A8re_part_avec_la_tondeuse/"
   },
@@ -25,7 +26,7 @@
       "text": "Attends un peu"
     },
     "no2": {
-      "text": "`Tapeu"
+      "text": "Tapeu"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/ngiexi/ne_soyez_pas_impatients_le_d%C3%A9confinement_sen_vient/"
   },
@@ -75,7 +76,8 @@
       "text": "Je crois que c'est ici"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/penske-sela.png"
+      "text": "penseke-sela",
+      "img": "penske-sela.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/nhqjp3/penske_c_pluloin/"
   },
@@ -105,7 +107,8 @@
       "text": "Dépêche toi"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/deguedine.jpg"
+      "text": "Déguédine",
+      "img": "deguedine.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/nhkry8/inspir%C3%A9_par_mon_pot_de_fromage/"
   },
@@ -125,7 +128,8 @@
       "text": "Regarde"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/gordon.jpg"
+      "text": "Gordon",
+      "img": "gordon.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/nh7e2j/oui_je_sais_que_des_piments_cpas_des_l%C3%A9gumes_cest/"
   },
@@ -205,7 +209,8 @@
       "text": "Câline de bine"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/keolis.jpg"
+      "text": "Kéolis",
+      "img": "keolis.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/n1blcf/lautobus_transporteur_de_sacres/"
   },
@@ -215,7 +220,8 @@
       "text": "Je pense que"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/penske.jpg"
+      "text": "Penske",
+      "img": "penske.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/n19bg7/donner_son_opinion/"
   },
@@ -285,7 +291,8 @@
       "text": "Vous êtes en retard"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/tartare.jpg"
+      "text": "Tartare",
+      "img": "tartare.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/bi0f0g/aweille/"
   },
@@ -295,7 +302,8 @@
       "text": "Ça sent mauvais le matin"
     },
     "no2": {
-      "img": "https://ex.smnarnold.com/winnie/memes/saputo.png"
+      "text": "Saputo",
+      "img": "saputo.webp"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/eoa45z/merci_bonsoir/"
   },
@@ -312,7 +320,7 @@
   {
     "slug": "jen-possede-quelques-exemplaires",
     "no1": {
-      "text": "J'es possède quelques exemplaires"
+      "text": "J'en possède quelques exemplaires"
     },
     "no2": {
       "text": "En'nékekzun"
@@ -406,15 +414,6 @@
     }
   },
   {
-    "slug": "ou-est-il",
-    "no1": {
-      "text": "Où est-il?"
-    },
-    "no2": {
-      "text": "Youskié?"
-    }
-  },
-  {
     "slug": "je-vais-te",
     "no1": {
       "text": "Je vais te"
@@ -442,7 +441,7 @@
       "text": "Sawzall"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/nkoghm/toi_aussi_tu_ris_encore_des_mémés_de_winnie_ben/gzdubz9"
-  }, 
+  },
   {
     "slug": "5-dollars",
     "no1": {
@@ -452,7 +451,7 @@
       "text": "Morvenue cinkekek"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/no5sy2/jesp%C3%A8re_je_suis_pas_en_retard_pour_les_m%C3%A9m%C3%A9_de/"
-  }, 
+  },
   {
     "slug": "se-stationner",
     "no1": {
@@ -462,5 +461,15 @@
       "text": "Sparker comme une envie de chier"
     },
     "source": "https://www.reddit.com/r/Quebec/comments/co7bqy/mennuyait_de_winnie/"
+  },
+  {
+    "slug": "arrete-de-parler-et-bois",
+    "no1": {
+      "text": "Arrête de parler et bois"
+    },
+    "no2": {
+      "text": "Ta yeule pis boé",
+      "img": "ta-yeule-pis-boe.webp"
+    }
   }
 ]
