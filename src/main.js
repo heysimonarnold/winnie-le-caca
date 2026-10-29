@@ -1,8 +1,10 @@
 import "./style.css";
 import memesArr from "./memes.json";
 
-const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
-const absoluteBasePath = new URL(basePath, window.location.origin).href;
+const absoluteBasePath = new URL(
+  import.meta.env.BASE_URL,
+  window.location.origin,
+).href;
 
 class Winnie {
   constructor() {
@@ -67,7 +69,7 @@ class Winnie {
       const item = document.createElement("li");
       const link = document.createElement("a");
 
-      link.href = `${basePath}/${meme.slug}/`;
+      link.href = new URL(`${meme.slug}/`, absoluteBasePath).href;
       link.dataset.slug = meme.slug;
       link.textContent = meme.no1.text || "Mème sans texte";
       item.append(link);
@@ -174,10 +176,7 @@ class Winnie {
 
     if (data.img) {
       element.textContent = "";
-      const imageUrl = new URL(
-        `${absoluteBasePath}img/memes/${data.img}`,
-        `${window.location.origin}/`,
-      );
+      const imageUrl = new URL(`img/memes/${data.img}`, absoluteBasePath);
       element.style.backgroundImage = `url("${imageUrl.href}")`;
     } else {
       element.textContent = data?.text ?? "";
