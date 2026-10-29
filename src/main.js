@@ -2,6 +2,7 @@ import "./style.css";
 import memesArr from "./memes.json";
 
 const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+const absoluteBasePath = new URL(basePath, window.location.origin).href;
 
 class Winnie {
   constructor() {
@@ -174,7 +175,7 @@ class Winnie {
     if (data.img) {
       element.textContent = "";
       const imageUrl = new URL(
-        `${basePath}/img/memes/${data.img}`,
+        `${absoluteBasePath}img/memes/${data.img}`,
         `${window.location.origin}/`,
       );
       element.style.backgroundImage = `url("${imageUrl.href}")`;
@@ -204,8 +205,9 @@ class Winnie {
 
   updateURL() {
     const url = this.selectedMeme?.slug
-      ? `${basePath}/${this.selectedMeme.slug}/#${this.resolution}`
-      : `${basePath}/#${this.resolution}`;
+      ? `${absoluteBasePath}${this.selectedMeme.slug}/#${this.resolution}`
+      : `${absoluteBasePath}#${this.resolution}`;
+
     const title = this.selectedMeme?.slug
       ? `Winnie le caca - ${this.selectedMeme.no1.text}`
       : "Winnie le caca";
