@@ -203,28 +203,20 @@ class Winnie {
   }
 
   updateURL() {
-    let title = "Winnie le caca";
-    let url = `${basePath}/#${this.resolution || "standard"}`;
-
-    if (this.selectedMeme) {
-      url = this.selectedMeme.slug
-        ? `${basePath}/${this.selectedMeme.slug}/`
-        : basePath;
-
-      url += `#${this.resolution || "standard"}`;
-
-      title = this.selectedMeme.no1?.text
-        ? `Winnie le caca - ${this.selectedMeme.no1.text}`
-        : "Winnie le caca";
-    }
+    const url = this.selectedMeme?.slug
+      ? `${basePath}/${this.selectedMeme.slug}/#${this.resolution}`
+      : `${basePath}/#${this.resolution}`;
+    const title = this.selectedMeme?.slug
+      ? `Winnie le caca - ${this.selectedMeme.no1.text}`
+      : "Winnie le caca";
 
     window.history.replaceState({}, title, url);
+    document.title = title;
   }
 
   /* ----------------------------- */
   /* Download                      */
   /* ----------------------------- */
-
   async downloadMeme() {
     if (!this.dom.meme) return;
 
