@@ -471,5 +471,14 @@
       "text": "Ta yeule pis boé",
       "img": "ta-yeule-pis-boe.webp"
     }
+  },
+  {
+    "slug": "ne-men-parle-pas",
+    "no1": {
+      "text": "Ne me parle pas"
+    },
+    "no2": {
+      "text": "Parmesan pô"
+    }
   }
 ]

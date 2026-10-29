@@ -137,6 +137,7 @@ class Winnie {
     this.selectedMeme = null;
     this.updateMeme(null);
     this.editMeme();
+    this.dom.source.style.display = "none";
   }
 
   selectMeme(index) {
@@ -160,7 +161,7 @@ class Winnie {
     this.updateTextBlock(this.dom.text1, obj.no1);
     this.updateTextBlock(this.dom.text2, obj.no2);
 
-    if (obj.source && obj.source.trim() !== "") {
+    if (this.selectedMeme && obj.source && obj.source.trim() !== "") {
       this.dom.source.style.display = "flex";
       this.dom.url.textContent = obj.source;
       this.dom.url.href = obj.source;

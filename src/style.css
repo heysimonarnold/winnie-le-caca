@@ -118,14 +118,24 @@ label {
 
   button,
   a {
+    align-items: center;
     appearance: none;
-    color: black;
-    border: none;
     background-color: grey;
-    font-size: 3vmin;
+    border: none;
+    color: black;
     cursor: pointer;
+    display: inline-flex;
+    font-size: 3vmin;
+    justify-content: center;
+    min-height: 6vmin;
     padding: 1vmin 2vmin;
     text-decoration: none;
+    vertical-align: middle;
+
+    &:hover,
+    &:focus {
+      background-color: lightgrey;
+    }
   }
 
   svg {
@@ -137,7 +147,7 @@ label {
     display: none;
 
     .is-meme & {
-      display: inline-block;
+      display: inline-flex;
     }
   }
 }
