@@ -207,17 +207,9 @@ class Winnie {
     let url = `${basePath}/#${this.resolution || "standard"}`;
 
     if (this.selectedMeme) {
-      const { pathname } = window.location;
-      const delimiter = "winnie";
-      const index = pathname.indexOf(delimiter);
-
-      if (index === -1) return;
-
-      const baseUrl = pathname.substring(0, index + delimiter.length);
-
       url = this.selectedMeme.slug
-        ? `${baseUrl}/${this.selectedMeme.slug}/`
-        : baseUrl;
+        ? `${basePath}/${this.selectedMeme.slug}/`
+        : basePath;
 
       url += `#${this.resolution || "standard"}`;
 
