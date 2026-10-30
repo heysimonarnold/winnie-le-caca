@@ -1,5 +1,7 @@
 # Winnie le caca
 
+![Daft Pad](./public/og-image.png)
+
 Winnie le caca, tsé genre le meme
 
 Url: [https://heysimonarnold.github.io/winnie-le-caca/](https://heysimonarnold.github.io/winnie-le-caca/)
