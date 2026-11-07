@@ -1,6 +1,6 @@
 # Winnie le caca
 
-![Daft Pad](./public/og-image.png)
+![Winnie le caca](./public/og-image.png)
 
 Winnie le caca, tsé genre le meme
 
